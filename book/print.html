@@ -255,6 +255,65 @@ De manera adicional, para cada instrumento se adjuntará la información de coma
 <p>Página con descripción y manuales</p>
 <p><a href="https://www.mksinst.com/f/pr4000b-digital-power-supply">https://www.mksinst.com/f/pr4000b-digital-power-supply</a></p>
 <h1 id="guía-de-uso-1"><a class="header" href="#guía-de-uso-1">Guía de uso</a></h1>
+<h1 id="protocolo"><a class="header" href="#protocolo">Protocolo</a></h1>
+<p>Este es un protocolo solicitud-respuesta. Se emite exactamente un mensaje de
+respuesta tras cada mensaje de solicitud. Cada mensaje es una secuencia de
+caracteres ASCII que finaliza en <code>\r</code>.</p>
+<h2 id="solicitudes"><a class="header" href="#solicitudes">Solicitudes</a></h2>
+<pre><code>[@aa][?|!]&lt;cc&gt;[p1[,p2[,p3]]]\r
+</code></pre>
+<ul>
+<li>
+<p><code>@aa</code>: Para comunicación con múltiples esclavos (RS-485), el prefijo opcional <code>@aa</code>
+indica la dirección decimal del destinatario, tal que los dispositivos con
+direcciones distintas ignoran el mensaje.</p>
+</li>
+<li>
+<p><code>?</code>: Este prefijo opcional indica que se lea el valor actual de un parámetro, en
+vez de sobreescribirlo. Los parámetros que siguen al número de canal se deben omitir.</p>
+</li>
+<li>
+<p><code>!</code>: Reestablece el parámetro a su valor predeterminado. No se puede utilizar junto a <code>?</code>.</p>
+</li>
+<li>
+<p><code>cc</code>: Comando. Algunos comandos esperan un número de canal, el cual se incluye
+en lo que sintácticamente corresponde a <code>p1</code>, en cuyo caso el primer argumento
+<code>p1</code> se toma sintácticamente de <code>p2</code>.</p>
+</li>
+<li>
+<p><code>pN</code>: Canal y argumentos de comando.</p>
+</li>
+</ul>
+<h2 id="respuestas"><a class="header" href="#respuestas">Respuestas</a></h2>
+<p>Si la respuesta inicia con la secuencia <code>#E</code>, entonces se trata de un error. De
+lo contrario, es una lista de valores de respuesta.</p>
+<ul>
+<li><code>#E&lt;nnn&gt;\r</code>: Código de error <code>nnn</code> decimal.
+<ul>
+<li><code>#E010</code>: Error de sintaxis. Si la solicitud es ambigua, se escoge una mejor
+interpretación en vez de generar un error de sintaxis.</li>
+<li><code>#E020</code>: Fallo general.</li>
+</ul>
+</li>
+<li><code>[r1[,r2[,r3]]]\r</code>: Lista de valores de respuesta, sigue el mismo formato
+que los argumentos en los mensajes de solicitud.</li>
+</ul>
+<h2 id="comandos"><a class="header" href="#comandos">Comandos</a></h2>
+<h3 id="dt-mostrar-texto"><a class="header" href="#dt-mostrar-texto"><code>DT</code>: Mostrar texto</a></h3>
+<ul>
+<li><em>Sinopsis</em>: Imprime texto ASCII en la pantalla 4.</li>
+<li><em>Parámetros</em>
+<ul>
+<li><code>text</code>: Cadena arbitraria de hasta 32 bytes.</li>
+</ul>
+</li>
+<li><em>Ejemplos de uso</em>
+| Solicitud    | Respuesta   | Efectos                         |
+|--------------|-------------|---------------------------------|
+| <code>DT,HELLO\r</code> | <code>\r</code>        | Se imprime &quot;HELLO&quot; en pantalla. |
+| <code>?DT</code>        | <code>&quot;HELLO&quot;\r</code> |                                 |
+| <code>!DT</code>        | <code>\r</code>        | Limpia la pantalla.             |</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="mks-979b-atmosphere-to-vacuum-transducer"><a class="header" href="#mks-979b-atmosphere-to-vacuum-transducer">MKS 979B Atmosphere to Vacuum Transducer</a></h1>
 <p><img src="instrumentos/img/979b.jpg" alt="" /></p>
 <table><thead><tr><th>Vendor</th><th>Modelo</th><th>Año prod.</th><th>Comunicación</th><th>Funcionalidad</th></tr></thead><tbody>
