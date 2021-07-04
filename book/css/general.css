@@ -4,7 +4,7 @@
 
 :root {
     /* Browser default font-size is 16px, this way 1 rem = 10px */
-    font-size: 62.5%;
+    font-size: 72.5%;
 }
 
 html {
@@ -83,7 +83,7 @@ h6:target::before {
     padding-bottom: 50px;
 }
 .content main {
-    margin-left: auto;
+    margin-left: 10em !important;
     margin-right: auto;
     max-width: var(--content-max-width);
 }
@@ -103,7 +103,7 @@ h6:target::before {
 }
 
 table {
-    margin: 0 auto;
+    margin: auto auto;
     border-collapse: collapse;
 }
 table td {
