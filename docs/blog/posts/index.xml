@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - José Morales</title>
+        <link>http://josfemova.github.io/posts/</link>
+        <description>All Posts | José Morales</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>josfemova@gmail.com (José Morales)</managingEditor>
+            <webMaster>josfemova@gmail.com (José Morales)</webMaster><lastBuildDate>Mon, 20 Dec 2021 12:15:03 -0600</lastBuildDate><atom:link href="http://josfemova.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hola world</title>
+    <link>http://josfemova.github.io/hola_world/</link>
+    <pubDate>Mon, 20 Dec 2021 12:15:03 -0600</pubDate><author>josfemova@gmail.com (José Morales)</author><guid>http://josfemova.github.io/hola_world/</guid>
+    <description><![CDATA[Why I made this blog I need a place to you know&hellip;blog about stuff I do, so naturally, I searched for a hugo theme that I liked and welp&hellip;here we are.
+What to expect I do a lot of stuff with different microcontrollers, and I&rsquo;m planning on doing some guides with some of them. I&rsquo;m also working in some interesting science/data aquisition projects, so I will probably post about that when I get the time to do so.]]></description>
+</item>
+</channel>
+</rss>
