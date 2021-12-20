@@ -16,7 +16,7 @@ I've colaborated with the `atsamd-rs` people to mantain the ItsyBitsy M4 Rsut BS
 
 I am currently working on a mdbook to teach programming on embedded systems using Rust and the ubiquitous ESP32, I'll keep you posted. Eventually, it should join the [`esp-rs` book](https://esp-rs.github.io/book/) but not completely.  
 
-I also bought an EOS-S3 devboard, which means I will document the process of using it. Don't hope for a complete starch-press-like guide, but i will try to get there from post to post. Might fuck around and create a Rust HAL for it eentually, but that means I will find out.
+I also bought an EOS-S3 devboard, which means I will document the process of using it. Don't hope for a complete starch-press-like guide, but I will try to get there from post to post. Might fuck around and create a Rust HAL for it eventually, but those who fuck around eventually find out, let's hope the finding out part is easy on my hubris.
 
 ## I've made some learning material...perhaps you want to check that?
 
