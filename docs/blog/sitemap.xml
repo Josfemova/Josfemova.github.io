@@ -2,12 +2,12 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://josfemova.github.io/hola_world/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/about/</loc><lastmod>2021-12-20T14:59:18-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/tags/casual/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/categories/casual/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/categories/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/posts/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/tags/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://josfemova.github.io/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://josfemova.github.io/blog/hola_world/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/about/</loc><lastmod>2021-12-20T14:59:18-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/tags/casual/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/categories/casual/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/categories/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/posts/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/tags/</loc><lastmod>2021-12-20T12:15:03-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://josfemova.github.io/blog/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
