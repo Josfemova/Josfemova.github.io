@@ -3,7 +3,7 @@ weight: 1
 title: "Hola world"
 date: 2021-12-20T12:15:03-06:00
 draft: false
-description: "Discover what the Hugo - FeelIt theme is all about and the core-concepts behind it."
+description: "Hola hola hello hello"
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"

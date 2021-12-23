@@ -4,7 +4,7 @@
         <link>http://josfemova.github.io/</link>
         <description>My embedded systems blog, now in spanglish</description>
         <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>josfemova@gmail.com (José Morales)</managingEditor>
-            <webMaster>josfemova@gmail.com (José Morales)</webMaster><lastBuildDate>Mon, 20 Dec 2021 12:15:03 -0600</lastBuildDate>
+            <webMaster>josfemova@gmail.com (José Morales)</webMaster><lastBuildDate>Thu, 23 Dec 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://josfemova.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Hola world</title>
@@ -12,6 +12,12 @@
     <pubDate>Mon, 20 Dec 2021 12:15:03 -0600</pubDate><author>josfemova@gmail.com (José Morales)</author><guid>http://josfemova.github.io/hola_world/</guid>
     <description><![CDATA[Why I made this blog I need a place to you know&hellip;blog about stuff I do, so naturally, I searched for a hugo theme that I liked and welp&hellip;here we are.
 What to expect I do a lot of stuff with different microcontrollers, and I&rsquo;m planning on doing some guides with some of them. I&rsquo;m also working in some interesting science/data aquisition projects, so I will probably post about that when I get the time to do so.]]></description>
+</item>
+<item>
+    <title>Devlog 0 - Tratando de usar la EOS-S3</title>
+    <link>http://josfemova.github.io/quicklogic-0/</link>
+    <pubDate>Thu, 23 Dec 2021 00:00:00 &#43;0000</pubDate><author>josfemova@gmail.com (José Morales)</author><guid>http://josfemova.github.io/quicklogic-0/</guid>
+    <description><![CDATA[<p>Una aventura en el mundo del workflow OSS con FPGAs y el encuentro con algunos de los retos.</p>]]></description>
 </item>
 </channel>
 </rss>
